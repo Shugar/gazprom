@@ -1,17 +1,24 @@
 .join {
-  padding: 200px 0;
-  background: url('../images/join.jpg') no-repeat center / cover;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-content: center;
 }
 
-.join .container {
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
+.join-photo {
+  background: url('../images/join.jpg') no-repeat center / cover;
+  flex: 0 0 60%;
+}
+
+.join-info {
+  flex: 0 0 40%;
+  padding: 200px 50px;
 }
 
 .join-title {
-  margin-bottom: 32px;
+  margin-bottom: 16px;
   font-size: 24px;
-  color: #FFFFFF;
-  text-align: center;
+  color: #000;
+  max-width: 400px;
+  line-height: 36px;
 }
