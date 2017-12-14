@@ -1,0 +1,35 @@
+.conditions {
+  padding: 80px 0;
+}
+
+.conditions-title {
+  margin-bottom: 24px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #000000;
+}
+
+.conditions-list__item {
+  padding-left: 28px;
+  position: relative;
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 16px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.conditions-list__item:before {
+  content: '';
+  position: absolute;
+  height: 8px;
+  width: 8px;
+  border-radius: 100px;
+  background: #009CDE;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}

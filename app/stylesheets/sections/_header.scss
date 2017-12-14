@@ -1,0 +1,49 @@
+.header {
+  padding: 80px 0;
+  position: relative;
+  min-height: 600px;
+  margin-top: 90px;
+  height: calc(100vh - 90px);
+  max-height: 800px;
+  background: url('../images/head.jpg') no-repeat center / cover;
+}
+
+.header .container {
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header-title {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 32px;
+  color: #FFFFFF;
+  letter-spacing: 0.62px;
+
+  span {
+    display: block;
+    margin-bottom: 16px;
+    font-size: 16px;
+    letter-spacing: 0.47px;
+  }
+}
+
+.header-subtitle {
+  max-width: 500px;
+  margin-bottom: 32px;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.header-arrow {
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+  width: 16px;
+  height: 9px;
+  background: url('../images/arrow.svg') no-repeat center / contain;
+}
