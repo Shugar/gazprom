@@ -23,3 +23,13 @@
   font-size: 16px;
   color: #FFFFFF;
 }
+
+@media (max-width: 768px) {
+  .duties {
+    padding: 40px 0;
+  }
+
+  .duties-title {
+    font-size: 20px;
+  }
+}

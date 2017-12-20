@@ -44,3 +44,17 @@
   top: 50%;
   transform: translateY(-50%);
 }
+
+@media (max-width: 768px) {
+  .work {
+    padding: 40px 0;
+  }
+
+  .work-title {
+    font-size: 20px;
+  }
+
+  .work-subtitle {
+    font-size: 16px;
+  }
+}

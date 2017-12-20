@@ -33,3 +33,13 @@
   top: 50%;
   transform: translateY(-50%);
 }
+
+@media (max-width: 768px) {
+  .conditions {
+    padding: 40px 0;
+  }
+
+  .conditions-title {
+    font-size: 20px;
+  }
+}

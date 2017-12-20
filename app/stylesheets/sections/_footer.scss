@@ -3,3 +3,9 @@
   padding: 38px 0;
   color: #FFF;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    text-align: center;
+  }
+}

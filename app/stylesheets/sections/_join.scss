@@ -22,3 +22,31 @@
   max-width: 400px;
   line-height: 36px;
 }
+
+@media (max-width: 768px) {
+  .join {
+    background: #0073bc;
+    padding: 40px 0;
+    display: block;
+  }
+
+  .join-photo {
+    display: none;
+  }
+
+  .join-info {
+    padding: 20px 30px;
+    text-align: center;
+  }
+
+  .join-title {
+    color: #FFF;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .join .button {
+    color: #FFF;
+  }
+}
